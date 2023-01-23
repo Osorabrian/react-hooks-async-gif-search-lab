@@ -11,7 +11,7 @@ export default function GifSearch({giphySearch}){
 
     return (
         <form onSubmit={handleSubmit}>
-            <input placeholder="Search..." value={search} onChange={(e) => setSearch(e.target.value)}/>
+            <input placeholder="Enter slug to search" value={search} onChange={(e) => setSearch(e.target.value)}/>
             <input type="submit"/>
         </form>
     )
